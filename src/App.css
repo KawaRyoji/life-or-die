@@ -1,0 +1,100 @@
+#game-container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  grid-template-columns: 2fr 7fr;
+}
+
+#game {
+  display: grid;
+  margin: 0 5px;
+  grid-template-columns: repeat(50, 20px);
+  grid-template-rows: repeat(30, 20px);
+}
+
+.cell {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 100%;
+}
+
+.alive {
+  background-color: black;
+}
+
+#controls {
+  margin: 0 auto;
+}
+
+#button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 	gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+#button-container > button {
+  font-weight: bold;
+}
+
+#start {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#end {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#init {
+	grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+#party {
+	grid-column: 1 / 4;
+  grid-row: 2 / 3;
+}
+
+#speed-control-container {
+  display: grid;
+  gap: 3px;
+  border-radius: 8px;
+  padding: 5px;
+	background-color: #DDDDDD;
+  grid-template-columns: 1fr 4fr 1fr;
+	grid-column: 1 / 4;
+}
+
+#speed-control-container > span {
+  font-size: 14px;
+  text-align: center;
+}
+
+#play-guide {
+  display: block;
+  width: 100%;
+  margin: 15px auto 0 auto;
+  font-weight: bold;
+}
+
+@keyframes color-shift {
+  0% { color: #e74c3c; }
+  20% { color: #f1c40f; }
+  40% { color: #1abc9c; }
+  60% { color: #3498db; }
+  80% { color: #9b59b6; }
+  100% { color: #e74c3c; }
+}
+
+#party-time {
+  margin: 50px auto 0 auto;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  animation: color-shift 1s infinite;
+}

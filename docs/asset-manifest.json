@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/life-or-die/static/css/main.590524fc.css",
+    "main.js": "/life-or-die/static/js/main.8173e41d.js",
+    "static/js/453.a6a97343.chunk.js": "/life-or-die/static/js/453.a6a97343.chunk.js",
+    "index.html": "/life-or-die/index.html",
+    "main.590524fc.css.map": "/life-or-die/static/css/main.590524fc.css.map",
+    "main.8173e41d.js.map": "/life-or-die/static/js/main.8173e41d.js.map",
+    "453.a6a97343.chunk.js.map": "/life-or-die/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.590524fc.css",
+    "static/js/main.8173e41d.js"
+  ]
+}
